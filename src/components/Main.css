@@ -1,0 +1,74 @@
+.editor{
+    /* overflow: hidden; */
+   
+    /* width: 70vw;
+    height: 80vh; */
+    flex: 2;
+    
+}
+.langselect,.themeselect{
+    width: 250px;
+    padding: 20px;
+    box-shadow: rgba(15, 10, 13, 0.938) 0px 5px;
+}
+.langselect div{
+    /* box-shadow: rgba(15, 10, 13, 0.938) 0px 5px; */
+    /* height: fit-content; */
+}
+.header{
+    display: flex;
+    width: fit-content;
+}
+.editor-output{
+    display: flex;
+    
+    /* justify-content: space-around; */
+   
+}
+.output{
+    /* background-color: red; */
+    width: 30vw;
+    height:100%;
+    margin-top: -60px;
+    right: 20px;
+    padding: 10px;
+    
+    position: relative;
+    /* flex: 1; */
+}
+.container{
+    /* margin-right: 10px; */
+    height: 200px;
+    overflow: scroll;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    background-color: blue;
+}
+button{
+ 
+    width: 200px;
+    font-weight: 800;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: rgba(15, 10, 13, 0.938) 0px 5px
+}
+.btn{
+    position: absolute;
+    right: 1rem;
+    width: fit-content;
+
+    background-color: red;
+    bottom: 100px;
+}
+.custom-input{
+    display: flex;
+    flex-direction: column;
+
+}
+.custom{
+    position: relative;
+    bottom: 140px;
+}
